@@ -4,11 +4,29 @@
   box-sizing: border-box;
 }
 
+.orange {
+  background-color: #FF9A4B;
+}
+
 header, footer {
   height: 50px;
   background-color: #AAAAAA;
 }
 
-.orange {
-  background-color: #FF9A4B;
+main {
+  width: 960px;
+  margin: 50px auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.main-box {
+  width: 300px;
+  height: 300px;
+  margin-left: 30px;
+  background-color: #EEEEEE;
+}
+
+.main-box:first-child {
+  margin-left: 0;
 }
