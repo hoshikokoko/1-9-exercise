@@ -8,6 +8,10 @@
   background-color: #FF9A4B;
 }
 
+.position {
+  position: relative;
+}
+
 header, footer {
   height: 50px;
   background-color: #AAAAAA;
@@ -29,4 +33,21 @@ main {
 
 .main-box:first-child {
   margin-left: 0;
+}
+
+.main-top {
+  color: #FFFFFF;
+  display: inline-block;
+}
+
+.main-item {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  left: 10px;
+  bottom: 10px;
+}
+
+.main-image {
+  height: 150px;
 }
