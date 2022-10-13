@@ -21,12 +21,10 @@ main {
   width: 960px;
   margin: 50px auto;
   display: flex;
-  flex-wrap: wrap;
 }
 
 .main-box {
-  width: 300px;
-  height: 300px;
+  width: 300px;                                                                                                                                                                                                                                                                                                                
   margin-left: 30px;
   background-color: #EEEEEE;
 }
@@ -36,18 +34,22 @@ main {
 }
 
 .main-top {
+  position: absolute;
   color: #FFFFFF;
   display: inline-block;
 }
 
 .main-item {
-  position: absolute;
-  top: 10px;
-  right: 10px;
-  left: 10px;
-  bottom: 10px;
+ margin: 10px; 
 }
 
 .main-image {
   height: 150px;
+  background-image: url(img/flow01.png);
+  background-position: bottom;
+  background-size: cover;
+}
+
+h3 {
+  margin: 15px 0 5px;
 }
